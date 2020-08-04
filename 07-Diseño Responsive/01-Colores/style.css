@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+body{
+    font-family: 'Sriracha', cursive;
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h1{
+    font-size: 40px;
+    color: white;
+}
+
+
+@media (min-width:600px) and (max-width:900px) {
+    body{
+        background-color: teal;
+    }
+    h1{
+        font-size: 32px;
+    }
+}
+
+@media (max-width:600px){
+    body{
+        background-color: yellowgreen
+    }
+    h1{
+        font-size: 24px;
+    }
+}
